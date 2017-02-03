@@ -1,0 +1,27 @@
+//if statements	
+
+import java.util.Scanner;
+public class ifelse 
+{
+
+	public static void main(String[] args) 
+	{
+
+	
+	Scanner tim = new Scanner(System.in);
+
+	 int test1;
+	 
+
+	 System.out.println("Enter a number greater than 9 or less than 15 : ");
+	 test1 = tim.nextInt();
+
+
+	if ( test1 > 9 || test1 < 15){
+		 System.out.println("True!");
+		}
+	else{System.out.println("Flase!");}
+
+
+	}
+}		

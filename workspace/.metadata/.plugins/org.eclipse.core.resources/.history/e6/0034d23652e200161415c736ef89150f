@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Project1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//declare scanner
+		Scanner sc = new Scanner(System.in);
+		//declare variable 
+		String userName;
+		
+		System.out.println("Hello what is your name?");
+
+		userName = sc.nextLine();
+
+		System.out.println("Hi "  + userName + " how are you? ");
+
+	}
+
+}

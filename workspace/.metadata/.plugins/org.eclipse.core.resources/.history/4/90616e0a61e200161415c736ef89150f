@@ -1,0 +1,6 @@
+
+public class otherOne {
+	public void simpleMessage(int age){
+		System.out.println("Hello " + age); 
+	}
+}

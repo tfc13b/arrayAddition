@@ -1,0 +1,24 @@
+//if statements	
+
+import java.util.Scanner;
+public class ifelse 
+{
+
+	public static void main(String[] args) 
+	{
+	
+	Scanner tim = new Scanner(System.in);
+
+	 int test;
+
+	 System.out.println("input a number greater than 9: ");
+	 test = tim.nextInt();
+
+	if ( test > 9 ){
+		 System.out.println("YES!");
+		}
+	else{System.out.println("NO!");}
+
+
+	}
+}		
